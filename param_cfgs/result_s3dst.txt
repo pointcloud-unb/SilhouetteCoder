@@ -1,0 +1,33 @@
+This is a sample output encoding the point cloud:
+ - Microsoft Voxelized Upper Bodies
+ - Ricardo9
+ - frame0000.ply
+ 
+This point cloud has 214656 points and it can be found at: http://plenodb.jpeg.org/
+
+PS C:\eduardo\workspace\testPointClouds> ./S3D -enc -c param_s3dst.cfg
+Running SILHOUETTE 3D - Point Cloud Intra Geometry Coder
+Author: Eduardo Peixoto     - eduardopeixoto@ieee.org
+Author: Edil Medeiros       - j.edil@ene.unb.br
+Author: Eduardo Lemos       -
+Author: Estevam Albuquerque -
+Author: Otho Komatsu        - otho.tk@hotmail.com
+Author: Rodrigo Borba       -
+
+Loading point cloud...
+Encoding point cloud using axis X...
+ENCODING WITH multi thread S3D-Illuminati using 4 threads
+Encoding point cloud using axis Y...
+ENCODING WITH multi thread S3D-Illuminati using 4 threads
+Encoding point cloud using axis Z...
+ENCODING WITH multi thread S3D-Illuminati using 4 threads
+
+...... Time Table ......
+Load PC time ... 0.091 seconds.
+Flush BITSTREAM to file time ... 0 seconds.
+Encode time ...
+X Axis: 3.466 seconds - Rate: 0.933685 bpov.
+Y Axis: 5.068 seconds - Rate: 0.872806 bpov.
+Z Axis: 3.509 seconds - Rate: 0.899043 bpov.
+FULL time ... 12.137 seconds.
+Final Rate = 0.872806 bits per occupied voxel.
